@@ -11,9 +11,9 @@ const CustomFields = ({ userData }) => {
           <h1 className="text-xl font-semibold">Custom Fields</h1>
         </section>
         <section className="leftPart1Body pt-4">
-          <section className="w-full flex items-start justify-start border-b-2 border-gray-300">
+          <section className="w-full flex items-start justify-start border-b-2 pb-2 border-gray-300">
             <h1 className="w-1/4 text-left">Custom Field 1: </h1>
-            <h1 className="w-3/4 text-left border-l-2 pl-2 border-gray-300">
+            <h1 className="w-3/4 text-left border-l-2 pl-2 border-gray-300 ">
               <span>
                 {userData?.customFields?.field1}{" "}
                 {userData?.customFields?.field2}
